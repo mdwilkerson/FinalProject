@@ -19,7 +19,7 @@ namespace FinalProject.Pages.Recipe
         }
 
         [BindProperty]
-        public Recipe Recipe { get; set; }
+        public Category Category { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
