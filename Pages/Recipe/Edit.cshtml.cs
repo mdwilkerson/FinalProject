@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FinalProject.Models;
 
-namespace FinalProject.Pages.Recipe
+namespace FinalProject
 {
     public class EditModel : PageModel
     {

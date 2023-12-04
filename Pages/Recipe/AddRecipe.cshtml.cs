@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using FinalProject.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace FinalProject.Models
+namespace FinalProject
 {
     public class AddRecipeModel : PageModel
     {

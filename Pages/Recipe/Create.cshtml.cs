@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using FinalProject.Models;
 
-namespace FinalProject.Pages.Recipe
+
+namespace FinalProject
 {
     public class CreateModel : PageModel
     {

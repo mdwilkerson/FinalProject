@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using FinalProject.Models;
 
-namespace FinalProject.Pages.Recipe
+namespace FinalProject
 {
     public class DeleteModel : PageModel
     {
@@ -20,6 +20,7 @@ namespace FinalProject.Pages.Recipe
 
         [BindProperty]
         public Category Category { get; set; }
+        public Models.Recipe? Recipe { get; private set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
